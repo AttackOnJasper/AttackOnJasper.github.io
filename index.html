@@ -95,7 +95,8 @@
 <script>
     function slideSwitch() {
         var $active = $('div#slideshow IMG.active');
-        var $next = $active.next();    
+        var $next =  $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');    
 
         $next.addClass('active');
 
