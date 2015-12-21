@@ -42,8 +42,12 @@ menu{
     z-index:99;
 }
 
+#slideshow {
+  	height: 600px;
+}
+
 #slideshow IMG {
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	position: absolute;
 }
