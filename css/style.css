@@ -6,7 +6,7 @@ body{
 #menu {
     width: 100%;
     position: fixed;
-    background-color: rgba(20,20,20,0.2);
+    background-color: rgba(40,40,40,0.2);
     z-index: 1000; /* Z-Index for making this div always on top */
 }
 
