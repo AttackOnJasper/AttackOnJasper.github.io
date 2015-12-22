@@ -75,3 +75,11 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+section {
+   min-height: 100vh;
+}
+
+h1{
+   text-align: center;
+}
