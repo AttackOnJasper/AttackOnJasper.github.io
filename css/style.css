@@ -83,3 +83,19 @@ section {
 h1{
    text-align: center;
 }
+
+a.download {
+    color: #fff !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    background: #2980b9;
+    padding: 20px 15px;
+    border-bottom: 4px solid #6ab8ea;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    margin-left: 0.5em;
+}
