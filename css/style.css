@@ -27,8 +27,8 @@ body{
 .footer{
 	position:absolute;
 	bottom: 0;
-	background: black;
- 	color: white;
+    background: #333a40;
+    padding: 3em 0;
 }
 .col-sm-8{
 	font-size: 20px;
