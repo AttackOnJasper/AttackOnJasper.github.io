@@ -24,12 +24,7 @@ body{
 	width: 100%;
     background-size: 100%;
 }
-.footer{
-	position:absolute;
-	bottom: 0;
-    background: #333a40;
-    padding: 3em 0;
-}
+
 .col-sm-8{
 	font-size: 20px;
 	text-indent: 50px;
@@ -98,4 +93,116 @@ a.download {
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     margin-left: 0.5em;
+}
+
+/*-- footer --*/
+.footer{
+	background:#333a40;
+	padding: 3em 0;
+}
+.footer-grids {
+	border-bottom: 1px solid #434F59;
+	padding-bottom: 5em;
+}
+.footer-grids-info h5 {
+	margin: 0;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 400;
+}
+.footer-grids-info ul {
+	margin: 0;
+	width:300px;
+	padding:2em 0 0 0;
+}
+.footer-grids-info ul li{
+	display:block;
+	padding-bottom: 5px;
+	color: #8f8f8f;
+}
+.footer-grids-info ul li a{
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 500;
+	color: #8f8f8f;
+	position: relative;
+}
+.footer-grids-info ul li a:hover{
+	color:#CFC10B;
+	transition:.5s all;
+}
+.footer-grids-info form {
+	width: 100%;
+	text-align: right
+}
+.footer-grids-info  input[type="text"] {
+	display: inline-block;
+	border: none;
+	box-shadow: 1px 1px rgb(139, 135, 135);
+	margin: 2em 0 1em 0;
+	outline: none;
+	font-size: 15px;
+	color: #999999;
+	font-weight: 500;
+	width: 100%;
+	padding: .8em 1em;
+	border-radius: 2px;
+}
+.footer-grids-info  input[type="email"] {
+	display: inline-block;
+	border: none;
+	box-shadow: 1px 1px rgb(139, 135, 135);
+	margin: 0;
+	outline: none;
+	font-size: 15px;
+	color: #999999;
+	font-weight: 500;
+	width: 100%;
+	padding: .8em 1em;
+	border-radius: 2px;
+}
+.footer-grids-info  input[type="submit"] {
+	background: #4d7ea8;
+	padding: .6em 0;
+	width: 33%;
+	border: none;
+	margin-top: 1.5em;
+	font-size: 15px;
+	color: #fff;
+	font-weight: 400;
+	outline: none;
+	border-radius: 2px;
+}
+.footer-grids-info input[type="submit"]:hover{
+	color: #fff;
+	background:#CFC10B;
+	transition: .5s all;
+	outline: none;
+}
+.footer-grids-info p {
+	color: #8f8f8f;
+	margin: 2em 0 0;
+	font-size: 15px;
+	line-height: 1.7;
+}
+.copy-right {
+	padding-top: 2em;
+	text-align: center;
+}
+.copy-right p {
+	color: #b0b0b0;
+	margin: 0;
+	font-size: 15px;
+	font-weight: 500;
+}
+.copy-right p a{
+	color: #b0b0b0;
+	font-size: 15px;
+	font-weight: 500;
+	margin-left: 3px;
+	text-decoration:none;
+}
+.copy-right p a:hover{
+	transition: .5s all;
+	color:#CFC10B;
 }
