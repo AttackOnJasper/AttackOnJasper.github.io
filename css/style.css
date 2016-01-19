@@ -206,3 +206,7 @@ a.download {
 	transition: .5s all;
 	color:#CFC10B;
 }
+
+#resume{
+	min-height: 50vh;
+}
